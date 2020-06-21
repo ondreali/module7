@@ -3,7 +3,10 @@
 program: sort_and_search_list
 Author: Ondrea Li
 Last date modfied: 06/20/20
-The purpose of this program is to
+The purpose of this program is to search and sort list of items.
+Print the search list and sort list
+Write 2 functions and
+return the index of the object in the list or a -1 if the item is not found
 """
 animal_list = ['horse', 'goat', 'llama', 'chicken','cow', 'deer']
 def search_list(animal):
