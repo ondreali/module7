@@ -1,5 +1,5 @@
 """
-program: basic_list
+program: test_basic_list
 Author: Ondrea Li
 Last date modfied: 06/20/20
 
