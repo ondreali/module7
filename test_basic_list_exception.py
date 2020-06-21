@@ -24,7 +24,10 @@ def  test_make_list_below_range(self, input):                        # pass inpu
     with self.assertRaises(ValueError):                             # this is familiar
         topic1.make_list()
 
-
+@patch('fun_with_collections.topic1.get_input', return_value='51')  # patch function for input
+def test_make_list_above_range (self, input):                        # pass input
+    with self.assertRaises(ValueError):                             # this is familiar
+        topic1.make_list()
 
 
 
