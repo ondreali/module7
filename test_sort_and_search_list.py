@@ -15,6 +15,8 @@ class TestList(unittest.TestCase):
     def test_for_item_not_found(self):
         with self.assertRaises(ValueError):
             ss.search_list('cat')
+    def test_sort_list(self):
+        self.assertEqual(ss.sort_list(), None)
 
 if __name__ == '__main__':
     unittest.main()
