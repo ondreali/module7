@@ -13,6 +13,8 @@ from fun_with_collections import sort_and_search_array as ssa
 class TestList(unittest.TestCase):
     def test_search_array(self):
         self.assertEqual(ssa.search_array('6.9'), 5)
-
+    def test_for_item_found(self):
+        self.assertEqual(ssa.search_array(2.3), 1)
+        
 if __name__ == '__main__':
     unittest.main()
