@@ -18,6 +18,8 @@ class TestList(unittest.TestCase):
     def test_for_item_not_found(self):
         with self.assertRaises(ValueError):
             ssa.search_array('cup')
+    def test_sort_array(self):
+        self.assertEqual(ssa.sort_array(), None)
         
 if __name__ == '__main__':
     unittest.main()
