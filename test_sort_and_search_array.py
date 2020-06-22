@@ -15,6 +15,8 @@ class TestList(unittest.TestCase):
         self.assertEqual(ssa.search_array('6.9'), 5)
     def test_for_item_found(self):
         self.assertEqual(ssa.search_array(2.3), 1)
+    def test_for_item_not_found(self):
+        self.assertEqual(ssa.search_array(5.2), None)
         
 if __name__ == '__main__':
     unittest.main()
